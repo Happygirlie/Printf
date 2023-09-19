@@ -19,7 +19,7 @@
 #define S_SHORT 1
 
 /**
- * struct frmt - The struct 
+ * struct frmt - The struct
  * @frmt: The format used
  * @fn: The function associated with it
  */

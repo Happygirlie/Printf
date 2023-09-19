@@ -79,7 +79,7 @@ int print_string(va_list types, char buffer[],
  * @buffer: Buffer array to handle the print
  * @flags:  This should calculate active flags
  * @width: This gets the width
- * @precision: The precision 
+ * @precision: The precision
  * @size: The size
  * Return: Number of characters printed
  */

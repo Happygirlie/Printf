@@ -3,9 +3,9 @@
 void print_buffer(char buffer[], int *buff_ind);
 
 /**
- * _printf - Printf function
- * @frmt: format.
- * Return: Printed chars.
+ * _printf - Pogram for a printf function
+ * @frmt: format
+ * Return: Printed characters
  */
 int _printf(const char *frmt, ...)
 {
@@ -26,7 +26,7 @@ int _printf(const char *frmt, ...)
 			buffer[buff_ind++] = frmt[i];
 			if (buff_ind == BUFF_SIZE)
 				print_buffer(buffer, &buff_ind);
-			/* write(1, &format[i], 1);*/
+			/* write(1, &frmt[i], 1);*/
 			prntd_chars++;
 		}
 		else
